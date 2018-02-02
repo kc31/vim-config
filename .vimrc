@@ -28,11 +28,10 @@ filetype plugin on
 " Put your non-Plugin stuff after this line
 colorscheme afterglow
 
-"backspace magic"
+"enables more reg backspace"
 set backspace=2
 "case insensitive"
 set ic
-"show relative line number"
 set number relativenumber
 
 "4 spaces is tab"
