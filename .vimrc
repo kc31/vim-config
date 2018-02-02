@@ -32,6 +32,7 @@ colorscheme afterglow
 set backspace=2
 "case insensitive"
 set ic
+"show relative line number"
 set number relativenumber
 
 "4 spaces is tab"
