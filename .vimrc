@@ -34,6 +34,7 @@ filetype plugin on
 
 "backspace magic"
 set backspace=2
+
 "case insensitive"
 set ic
 "show relative line number"
@@ -41,3 +42,6 @@ set number relativenumber
 
 "4 spaces is tab"
 set tabstop=4
+
+"indent properly
+set shiftwidth=4
