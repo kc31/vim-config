@@ -43,5 +43,5 @@ set number relativenumber
 "4 spaces is tab"
 set tabstop=4
 
-"indent properly
+"indent properly"
 set shiftwidth=4
