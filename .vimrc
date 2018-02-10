@@ -9,8 +9,6 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'scrooloose/syntastic'"
 
-Plugin 'terryma/vim-multiple-cursors'
-
 syntax enable
 set background=dark
 call vundle#end()            " required
