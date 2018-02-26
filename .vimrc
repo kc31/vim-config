@@ -21,6 +21,10 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+"c++14"
+let g:syntastic_cpp_compiler = 'clang++'
+let g:syntastic_cpp_compiler_options = ' -std=c++14 -stdlib=libc++'
 filetype plugin on
 
 " Put your non-Plugin stuff after this line
