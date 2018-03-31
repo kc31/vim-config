@@ -40,3 +40,8 @@ set number relativenumber
 set tabstop=4
 "indent properly"
 set shiftwidth=4
+
+
+" highlights the 81st column
+highlight ColorColumn ctermbg=235
+set colorcolumn=81
