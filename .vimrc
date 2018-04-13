@@ -36,11 +36,13 @@ set backspace=2
 set ic
 set number relativenumber
 
-"4 spaces is tab"
-set tabstop=4
-"indent properly"
-set shiftwidth=4
+" tab = tab
+" set tabstop=4
+" set shiftwidth=4
 
+" tab = 4 spaces
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+set autoindent
 
 " Highlight long lines (>80)
 
