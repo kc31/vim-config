@@ -30,6 +30,12 @@ filetype plugin on
 " Put your non-Plugin stuff after this line
 colorscheme afterglow
 
+" background color erase
+" only to be used for windows for bash
+" if &term =~ '256color'
+  " set t_ut=
+" endif
+
 "enables more reg backspace"
 set backspace=2
 "case insensitive"
